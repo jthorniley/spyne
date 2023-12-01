@@ -170,6 +170,8 @@ class _SixMetaPathImporter(object):
     with Python 2.5 and all existing versions of Python3
     """
 
+    _path = []
+
     def __init__(self, six_module_name):
         self.name = six_module_name
         self.known_modules = {}
